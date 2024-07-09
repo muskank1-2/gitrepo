@@ -1,2 +1,2 @@
 hii
-this is gitrepo 
+this is  a part of git repository
