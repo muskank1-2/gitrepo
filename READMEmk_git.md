@@ -71,7 +71,8 @@ To intsall git we just have to go to the website and download the same for the c
 
 After installation we need to check the version of the git installed and for that we need to open the terminal or command prompt and using :-
 **git --version** 
-![alt text](image-1.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/8361ff63-2c91-4065-9978-196995b5de73)
+
 
 
 ### Git Commands
@@ -109,15 +110,15 @@ Now before strting with the git commands we have to select the directory in whic
 
   The result of all the 5 commands stated above is shown in the following screenshot :
   
-  ![alt text](<Screenshot 2024-07-09 190434.png>)
+  ![image](https://github.com/muskank1-2/gitrepo/assets/169113658/d0fad47e-8bb0-41a9-a4f1-71a0e9be2b8c)
+
 
   we can also make changes in the existing commit message without adding a new message using :- 
   (Here a diff example is used to show how ammend works)
    ```bash 
     git ammend -m " new message"
   ``` 
-  ![alt text](image-6.png)
-
+ ![image](https://github.com/muskank1-2/gitrepo/assets/169113658/c46f9f85-005f-4b19-8698-2a7f928506c5)
 
   6. Now we will create a branch for our repository using 
   ```bash
@@ -130,8 +131,9 @@ Now before strting with the git commands we have to select the directory in whic
  After which we will go to the homepage and create a new repository using *New* button at the right top corner. 
  (created a new repo named "gitrepo")
 
-![alt text](image-13.png)
- 
+
+ ![image](https://github.com/muskank1-2/gitrepo/assets/169113658/e9a0df09-60f4-4e07-b656-f3a360eb3324)
+
 
  
 
@@ -146,7 +148,8 @@ Now before strting with the git commands we have to select the directory in whic
 ```bash 
 git push origin main
 ```
-![alt text](image-14.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/d84fc8fe-9e01-42a7-bbd4-3ecc481bd911)
+
 
 
 ## -- Pull
@@ -157,7 +160,8 @@ git push origin main
 git pull origin main
 ```
 
- ![alt text](image-15.png) 
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/9584668f-d4b6-4c65-a231-025f14502a01)
+
 
 ## -- Diffing 
   Diffing in git is used for comparing changes between different states of a repository, such as between commits, branches, the working directory, and the staging area. This comparison helps you see what has changed, where it has changed, and how it has changed. 
@@ -173,13 +177,15 @@ git pull origin main
   ```
   As the file was unstaged, we will add the file and move it to staging area.
 
-![alt text](image-17.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/50abc1b7-b959-4024-aa62-322040ce5d24)
+
 
 Now as the changes were not committed we will commit the changes and check the status 
 
-![alt text](image-18.png)
 
- ## -- Branches
+
+ ## -- Branches![image](https://github.com/muskank1-2/gitrepo/assets/169113658/a500aae4-1b22-4393-bdc5-b79d4dba1d90)
+
  Branches in Git are a way to work on different versions of a repository simultaneously.
 The defaukt branch in Git is the  main or master branch and we have been working with the "main" branch till now ,
 
@@ -201,7 +207,8 @@ we can check how many branches we have using and on what branch we are working  
 ```bash
   git checkout <branch>
 ```
-![alt text](image-19.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/6776d29e-20b5-4196-af78-7387f1957f42)
+
 
 ## --Merge and Merge Conflict
 There are situations where we have to merge the changes made indifferent branches into one single branch and to do so we use the concept of merging branches in Git.
@@ -212,13 +219,14 @@ Now we will add same content in both the files and try to merge them using
 ```
 
 The following pictures shows the result:
-![alt text](image-23.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/68997f6e-6d74-4b13-95e2-8ab108d78cd2)
 
 ## Solving merge conflict 
 In order to solve the merge conflict we will first check the stauts and after that we will make changes manually in the "python.py" files.
  13. Open the file in a text editor or IDE as shown :
  
- ![alt text](image-25.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/0d40a156-a1e5-453e-bd0b-5cfc15321078)
+
 
  now remove the "<<<<<<<<"  ,"======" ,">>>>>>>>" signs and then make the changes as per your need.
 
@@ -231,5 +239,10 @@ In order to solve the merge conflict we will first check the stauts and after th
 
 
 15. Commit the changes and check the status to verify the merge 
-![alt text](image-24.png)
+![image](https://github.com/muskank1-2/gitrepo/assets/169113658/129d0888-efd1-493c-a361-c5a51215f28f)
+
+
+
+Thus with all the learning of session 1 and session 2 of git and github I have completed this project
+Thankyou HOTWAX System and team for the guidance.
 
