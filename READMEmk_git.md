@@ -96,6 +96,11 @@ Now before strting with the git commands we have to select the directory in whic
     git config user.email "<email>"
 
     ```
+Git config have various other commands to make it easier for developers to work with git 
+> >creating alisaing-to make short forms of commands (for ex - git config --global alias.st status)
+>  >we cana lso set up default editors in git using config (git config --global core.editor "name")
+>  >There are also many toher commands to explore in git config
+
 4. Using add command we can make changes in the working directory to the staging area. This is the first step in the process of committing changes to the repository.Also the file added is named as *ex1*
 
 ``` bash
